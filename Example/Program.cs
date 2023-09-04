@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ExampleProj
 {
@@ -8,13 +9,19 @@ namespace ExampleProj
 
         public static void Main(string[] args)
         {
-            char char1 = 'c';
-            char char2 = '\n';
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("Hello World");
 
-            //s1 += "d"; is really
-            System.Char[] s2 = new System.Char[] { 'a', 'b', 'c', 'd' };
-            System.Diagnostics.Debug.WriteLine(s2);
+            for (int i = 0; i < 4; i++)
+            {
+                stringBuilder.Append(" nice to see you!");
+            }
+            string s = stringBuilder.ToString();
+            System.Diagnostics.Debug.WriteLine(s);
         }
     }
 }
+
+
+
 
