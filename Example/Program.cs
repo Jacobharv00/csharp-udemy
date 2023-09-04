@@ -9,15 +9,11 @@ namespace ExampleProj
 
         public static void Main(string[] args)
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("Hello World");
+            StringBuilder sB = new StringBuilder("This is a new string");
+          
+            sB.Replace(" ", "_");
 
-            for (int i = 0; i < 4; i++)
-            {
-                stringBuilder.Append(" nice to see you!");
-            }
-            string s = stringBuilder.ToString();
-            System.Diagnostics.Debug.WriteLine(s);
+            System.Diagnostics.Debug.WriteLine(sB);
         }
     }
 }
