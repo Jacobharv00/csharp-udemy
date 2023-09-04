@@ -7,9 +7,11 @@ namespace ExampleProj
     {
         public static void Main(string[] args)
         {
-            int i = 0;
-            i = 5;
-            System.Diagnostics.Debug.WriteLine(i is int);
+            string s1 = "HEY";
+            string s2 = "There";
+            string s3 = s1 + " " + s2;
+            s3 = "!";
+            System.Diagnostics.Debug.WriteLine(s3);
         }
     }
 }
