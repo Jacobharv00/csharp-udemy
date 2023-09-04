@@ -7,8 +7,9 @@ namespace ExampleProj
     {
         public static void Main(string[] args)
         {
-            Type sType = typeof(string);
-            System.Diagnostics.Debug.WriteLine(sType.FullName);
+            int i = 0;
+            i = 5;
+            System.Diagnostics.Debug.WriteLine(i is int);
         }
     }
 }
