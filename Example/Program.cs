@@ -7,8 +7,11 @@ namespace ExampleProj
     {
         public static void Main(string[] args)
         {
-            Type sType = typeof(string);
-            System.Diagnostics.Debug.WriteLine(sType.FullName);
+            string s1 = "HEY";
+            string s2 = "There";
+            string s3 = s1 + " " + s2;
+            s3 = "!";
+            System.Diagnostics.Debug.WriteLine(s3);
         }
     }
 }
