@@ -43,7 +43,7 @@ namespace ExampleProj
         public static void Main(string[] args)
         {
             Box box1 = new(6, 6, 6);
-            Box box2 = new(2, 2, 2);
+            Box box2 = new(4, 4, 4);
             Box box3 = box1 + box2;
 
             System.Diagnostics.Debug.WriteLine("Length: " + box3.GetLength());
