@@ -1,3 +1,3 @@
 # csharp-udemy
 
-This repo is to store all my learning during taking a c# udemy course
+This repo is to store all my learning during a c# udemy course
