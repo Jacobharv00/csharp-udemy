@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text;
+﻿using System.Diagnostics;
 
 namespace ExampleProj
 {
@@ -9,11 +8,7 @@ namespace ExampleProj
 
         public static void Main(string[] args)
         {
-            StringBuilder sB = new StringBuilder("This is a new string");
-          
-            sB.Replace(" ", "_");
-
-            System.Diagnostics.Debug.WriteLine(sB);
+            Debug.WriteLine(DateTime.Now.ToUniversalTime().ToString("MM/dd/yyyy hh:mm tt"));
         }
     }
 }
